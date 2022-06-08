@@ -52,11 +52,13 @@ classes[tf.argmax(m.predict(test_image),axis=1).numpy()[0]]
 import pandas as pd
 pd.DataFrame(history.history).plot()
 m.summary()
-![1](https://user-images.githubusercontent.com/93434149/172609680-d339b106-c175-409a-ada4-2db3fa8d2da0.jpg)
-![2](https://user-images.githubusercontent.com/93434149/172609725-2f9e6713-5519-4981-a0a3-b2ffd9fa9221.jpg)
+```
+![OUTPUT](./1.jpg)
+![OUTPUT](./2.jpg)
 
 
 
 2. DEMO VIDEO YOUTUBE LINK:
+```
 https://youtu.be/xnqkQpfWV_0
 ```
