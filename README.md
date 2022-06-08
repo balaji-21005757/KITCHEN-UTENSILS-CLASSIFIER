@@ -1,19 +1,26 @@
-# KITCHEN-UTENSILS-CLASSIFIER
-# CODE:
-~~~
-PROGRAM DEVELOPED BY:R.SOMEASVAR
-REGISTER NUMBER: 212221230103
-~~~
-~~~
+# SA(a) KITCHEN UTENSIL CLASSIFIER
+# Algorithm
+1.Import the packages.
+2.Read the images.
+3.Using classes and epoch find the accuracy and array.
+4.Using array we find the name of the name of the utensil.
+
+## Program:
+```
+Program to implement 
+Developed by   : R.SOMEASVAR
+RegisterNumber : 212221230103
+```
+
+## OUTPUT:
+```
+1. CODE :
 import splitfolders  # or import split_folders
 splitfolders.ratio("Raw", output="output", seed=1337, ratio=(.9, .1), group_prefix=None) # default values
 import matplotlib.pyplot as plt
 import matplotlib.image as mping
 img = mping.imread("output/val/BREAD_KNIFE/breadkniferaw2.jpg")
 plt.imshow(img)
-~~~
-![1](https://user-images.githubusercontent.com/93434149/172606034-f21aa36a-097d-4679-9262-b2874951ddb1.jpg)
-~~~
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 train_datagen = ImageDataGenerator(rescale=1./255,
@@ -44,6 +51,12 @@ m.predict(test_image)
 classes[tf.argmax(m.predict(test_image),axis=1).numpy()[0]]
 import pandas as pd
 pd.DataFrame(history.history).plot()
-~~~
-![2](https://user-images.githubusercontent.com/93434149/172606508-0b5a1457-3ada-47a6-aad0-68a29777440b.jpg)
+m.summary()
 
+![1](https://user-images.githubusercontent.com/93434149/172609304-2c5e15bd-3859-4000-b8d7-47d03872bc17.jpg)
+![2](https://user-images.githubusercontent.com/93434149/172609323-ae3af07c-f404-482d-be4a-a26afd119b39.jpg)
+
+
+2. DEMO VIDEO YOUTUBE LINK:
+https://youtu.be/xnqkQpfWV_0
+```
