@@ -1,9 +1,9 @@
 # SA(a) KITCHEN UTENSIL CLASSIFIER
 # Algorithm
-1.Import the packages.
-2.Read the images.
-3.Using classes and epoch find the accuracy and array.
-4.Using array we find the name of the name of the utensil.
+1. Import the packages.
+2. Read the images.
+3. Using classes and epoch find the accuracy and array.
+4. Using array we find the name of the name of the utensil.
 
 ## Program:
 ```
