@@ -60,5 +60,5 @@ m.summary()
 
 2. DEMO VIDEO YOUTUBE LINK:
 ```
-https://youtu.be/xnqkQpfWV_0
+https://youtu.be/cQkZ7AeK8sE
 ```
