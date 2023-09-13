@@ -80,6 +80,8 @@ pd.DataFrame(history.history).plot()
 m.summary()
 ```
 # OUTPUT:
+![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/4870d9d5-1d1b-4544-b8dc-989dda128cfd)
+
 ![OUTPUT](./1.jpg)
 ![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/76457ff6-212d-4fe7-b3e6-89f1b0b17d28)
 
