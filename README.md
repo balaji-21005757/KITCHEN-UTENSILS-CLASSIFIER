@@ -55,7 +55,10 @@ m.summary()
 ```
 # OUTPUT:
 ![OUTPUT](./1.jpg)
-![OUTPUT](./2.jpg)
+![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/76457ff6-212d-4fe7-b3e6-89f1b0b17d28)
+
+![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/3a7e66b0-1ba1-4b1b-b181-9d63816e1e91)
+
 
 
 
