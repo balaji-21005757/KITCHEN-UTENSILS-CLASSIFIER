@@ -1,4 +1,4 @@
-# SA(a) KITCHEN UTENSIL CLASSIFIER
+# KITCHEN UTENSIL CLASSIFIER
 # Algorithm
 1. Import the packages.
 2. Read the images.
@@ -8,15 +8,15 @@
 ## Program:
 ```
 Program to implement 
-Developed by   : R.SOMEASVAR
-RegisterNumber : 212221230103
+Developed by   : G.SAI DARSHAN, R.SOMEASVAR, K.BALAJI
+RegisterNumber : 212221240047, 212221230103, 212221230011
 ```
 
-## OUTPUT:
+
 ```
-1. CODE :
-import splitfolders  # or import split_folders
-splitfolders.ratio("Raw", output="output", seed=1337, ratio=(.9, .1), group_prefix=None) # default values
+
+import splitfolders
+splitfolders.ratio("Raw", output="output", seed=1337, ratio=(.9, .1), group_prefix=None)
 import matplotlib.pyplot as plt
 import matplotlib.image as mping
 img = mping.imread("output/val/BREAD_KNIFE/breadkniferaw2.jpg")
@@ -53,6 +53,7 @@ import pandas as pd
 pd.DataFrame(history.history).plot()
 m.summary()
 ```
+# OUTPUT:
 ![OUTPUT](./1.jpg)
 ![OUTPUT](./2.jpg)
 
