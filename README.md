@@ -8,8 +8,8 @@
 ## Program:
 ```
 Program to implement 
-Developed by   : G.SAI DARSHAN, R.SOMEASVAR, K.BALAJI
-RegisterNumber : 212221240047, 212221230103, 212221230011
+Developed by   : R.SOMEASVAR, K.BALAJI
+RegisterNumber : 212221230103, 212221230011
 ```
 
 
