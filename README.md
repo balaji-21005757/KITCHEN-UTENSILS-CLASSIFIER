@@ -90,7 +90,4 @@ m.summary()
 
 
 
-2. DEMO VIDEO YOUTUBE LINK:
-```
-https://youtu.be/cQkZ7AeK8sE
-```
+
