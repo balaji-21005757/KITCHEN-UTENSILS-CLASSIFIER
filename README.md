@@ -106,7 +106,8 @@ m.summary()
 ![OUTPUT](./1.jpg)
 ![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/76457ff6-212d-4fe7-b3e6-89f1b0b17d28)
 
-![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/3a7e66b0-1ba1-4b1b-b181-9d63816e1e91)
+![image](https://github.com/SOMEASVAR/KITCHEN-UTENSILS-CLASSIFIER/assets/93434149/a2a2b904-64cf-458a-ae94-3c27f71c04f4)
+
 
 
 
