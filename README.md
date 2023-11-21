@@ -55,14 +55,35 @@ test_image.shape
 
 import tensorflow_hub as hub
 
-m = tf.keras.Sequential([
-hub.KerasLayer("https://tfhub.dev/tensorflow/efficientnet/b0/feature-vector/1"),
-tf.keras.layers.Dense(20, activation='softmax')
-])
+import tensorflow as tf
+from tensorflow.keras import layers
+from tensorflow.keras import utils
+from tensorflow.keras import models
+model = models.Sequential()
+model.add(layers.Input(shape=(28,28,1)))
+model.add(layers.Conv2D(filters=32,kernel_size=(3,3),activation='relu',))
+model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
-m.compile(loss=tf.keras.losses.CategoricalCrossentropy(),optimizer=tf.keras.optimizers.Adam(),metrics=["accuracy"])
+model.add(layers.Conv2D(filters=64, kernel_size=(3,3), activation='relu',))
+model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
-history = m.fit(train,epochs=5,steps_per_epoch=len(train),validation_data=test,validation_steps=len(test))
+model.add(layers.Conv2D(filters=64, kernel_size=(3,3), activation='relu',))
+model.add(layers.MaxPooling2D(pool_size=(2, 2)))
+
+model.add(layers.Flatten())
+
+model.add(layers.Dense(128))
+model.add(layers.Dense(64,activation='relu'))
+model.add(layers.Dropout(0.5))
+model.add(layers.Dense(1,activation='sigmoid'))
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
+model.summary()
+
+batch_size = 16
+model.compile(loss=tf.keras.losses.CategoricalCrossentropy(),optimizer=tf.keras.optimizers.Adam(),metrics=["accuracy"])
+
+
+history = model.fit(train,epochs=5,steps_per_epoch=len(train),validation_data=test,validation_steps=len(test))
 
 classes=train.class_indices
 
